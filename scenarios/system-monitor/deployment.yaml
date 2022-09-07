@@ -29,7 +29,7 @@ spec:
           path: /
       containers:
       - name: system-monitor
-        image: madhuakula/k8s-goat-system-monitor
+        image: loremitprodcr.azurecr.io/goat/k8s-goat-system-monitor
         resources:
           limits:
             memory: "50Mi"

@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: internal-api
-        image: madhuakula/k8s-goat-internal-api
+        image: loremitprodcr.azurecr.io/goat/k8s-goat-internal-api
         resources:
           limits:
             cpu: 30m

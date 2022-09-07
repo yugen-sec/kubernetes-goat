@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: build-code
-        image: madhuakula/k8s-goat-build-code
+        image: loremitprodcr.azurecr.io/goat/k8s-goat-build-code
         resources:
           limits:
             memory: "50Mi"
