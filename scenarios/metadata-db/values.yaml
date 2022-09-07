@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: loremitprodcr.azurecr.io/goat/k8s-goat-metadata-db:v1
-  tag: latest
+  repository: loremitprodcr.azurecr.io/goat/k8s-goat-metadata-db
+  tag: v1
   pullPolicy: Always
 
 nameOverride: ""
