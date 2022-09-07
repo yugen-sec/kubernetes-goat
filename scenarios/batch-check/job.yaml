@@ -10,7 +10,6 @@ spec:
       containers:
       - name: batch-check
         image: loremitprodcr.azurecr.io/goat/k8s-goat-batch-check
-        tag: v1
         # command:
         #  - "bin/sh"
         #  - "-c"
