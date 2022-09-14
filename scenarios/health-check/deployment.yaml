@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: health-check
-        image: loremitprodcr.azurecr.io/goat/k8s-goat-health-check
+        image: loremitacr.azurecr.io/goat/k8s-goat-health-check
         resources:
           limits:
             memory: "100Mi"

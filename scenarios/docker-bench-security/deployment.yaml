@@ -31,7 +31,7 @@ spec:
         runAsUser: 0
       containers:
         - name: docker-bench
-          image: loremitprodcr.azurecr.io/goat/hacker-container
+          image: loremitacr.azurecr.io/goat/hacker-container
           imagePullPolicy: Always
           command: ["/bin/sh", "-c", "sleep infinity"]
           resources:
